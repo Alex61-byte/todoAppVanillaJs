@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url('https://images.skyscrapercenter.com/uploads/Frankfurt-am-Main_-2020_(CC__BY-SA)StephanM-unsplash210120-100127.jpg');
+    background-size: cover;
+    
+}
+
+.todo-container{
+    margin: 0 auto;
+    width: 750px;
+    background-color: rgb(49, 187, 141);
+    text-align: center;
+    margin-top: 100px;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+}
+button{
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+    position:relative;
+}
+article{
+    display: inline-block;
+    border: 2px solid grey;
+    width: 600px;
+}
+input{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.del-btn{
+    background-color: red;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.del-btn:hover{
+    background-color: yellow;
+    color: black;
+}
+#add{
+    font-weight: bold;
+    color:whitesmoke;
+    background-color: blue;
+
+}
+#add:hover{
+    background-color: green;
+}
+#new{
+    height: 29px;
+    vertical-align: baseline;
+}
